@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <Authors>Dev P</Authors>
+    <Company>TeknoPow</Company>
+    <Product>Web Advert Microservices</Product>
+    <PackageProjectUrl>https://github.com/devidaspr/WebAdvert.Web</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/devidaspr/WebAdvert.Web</RepositoryUrl>
+    <PackageId>DevP.AdvertApi.Models</PackageId>
+  </PropertyGroup>
+
+</Project>
