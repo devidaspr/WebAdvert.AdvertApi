@@ -8,8 +8,10 @@ namespace AdvertApi.Services
 {
     public interface IAdvertStorageService
     {
-        Task<string> Add(AdvertModel model);
-        Task Confirm(ConfirmAdvertModel model);
+        Task<string> AddAsync(AdvertModel model);
+        Task ConfirmAsync(ConfirmAdvertModel model);
         Task<bool> CheckHealthAsync();
+        Task<AdvertModel> GetByIdAsync(string Id);
+        Task<List<AdvertModel>> GetAllAsync();
     }
 }
